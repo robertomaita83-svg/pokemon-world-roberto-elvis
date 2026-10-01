@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Pokémon World ⚡</h1>
+        <p>¡Explora el increíble mundo Pokémon!</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#pokemones">Pokémon</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos a Pokémon World</h2>
+            <p>
+                Descubre criaturas increíbles, conoce sus tipos
+                y explora el universo Pokémon.
+            </p>
+        </section>
+
+        <section id="pokemones">
+            <h2>Pokémon destacados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>N.º</th>
+                        <th>Pokémon</th>
+                        <th>Tipo</th>
+                        <th>Región</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>Bulbasaur</td>
+                        <td>Planta / Veneno</td>
+                        <td>Kanto</td>
+                    </tr>
+                    <tr>
+                        <td>004</td>
+                        <td>Charmander</td>
+                        <td>Fuego</td>
+                        <td>Kanto</td>
+                    </tr>
+                    <tr>
+                        <td>007</td>
+                        <td>Squirtle</td>
+                        <td>Agua</td>
+                        <td>Kanto</td>
+                    </tr>
+                    <tr>
+                        <td>025</td>
+                        <td>Pikachu</td>
+                        <td>Eléctrico</td>
+                        <td>Kanto</td>
+                    </tr>
+                    <tr>
+                        <td>006</td>
+                        <td>Charizard</td>
+                        <td>Fuego / Volador</td>
+                        <td>Kanto</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"
+                       placeholder="Escribe tu nombre">
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo"
+                       placeholder="ejemplo@correo.com">
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"
+                          placeholder="Escribe tu mensaje"></textarea>
+
+                <button type="button">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Pokémon World - Proyecto académico de Roberto y Elvis</p>
+    </footer>
+
+</body>
+</html>
